@@ -1,6 +1,7 @@
 module github.com/prometheus/client_golang
 
-go 1.22
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -14,7 +15,7 @@ require (
 	github.com/prometheus/common v0.63.0
 	github.com/prometheus/procfs v0.16.1
 	go.uber.org/goleak v1.3.0
-	golang.org/x/sys v0.32.0
+	golang.org/x/sys v0.33.0
 	google.golang.org/protobuf v1.36.6
 )
 
